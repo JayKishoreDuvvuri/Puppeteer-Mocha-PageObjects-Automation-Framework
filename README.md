@@ -10,6 +10,13 @@ Clone the repository
 git clone https:https://github.com/JayKishoreDuvvuri/Puppeteer-Mocha-PageObjects-Automation-Framework
 ```
 
+## Application Under Test
+
+We are using http://localhost:3000 as the Application Under Test.
+
+* URL : http://localhost:3000
+
+
 Install dependencies
 
 ```bash
