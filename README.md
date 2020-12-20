@@ -80,7 +80,7 @@ Folder Structure
     │            
     │── .babelrc                                        # JavaScript Compiler
     │
-    │── config.js                                       # Confiuguration JavSacript File with the baseUrl defined here
+    │── config.js                                       # Configuration JavSacript File with the baseUrl defined here
     │
     ├── helper.js                                       # Common utility file re-used across the Framework
     │   
