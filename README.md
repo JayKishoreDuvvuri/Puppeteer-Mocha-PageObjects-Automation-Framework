@@ -26,21 +26,21 @@ Install Node modules with command : npm i
 Test Execution - Run test                                     
 
 ```bash
-npm run test:smoke                           #For smoke tests execution
-npm run test:regression                      #For regrerssion tests execution
-npm run test                                 #For all tests execution
-npm run test:createAccount                   #For create account tests execution
-npm run test:createTransaction               #For create transaction tests execution
-npm run test:accountsList                    #For account list tests execution
-npm run test:transactionsList                #For transactions list tests execution
-npm run test:single                          #For individual test execution
+npm run test:smoke                                      #For smoke tests execution
+npm run test:regression                                 #For regrerssion tests execution
+npm run test                                            #For all tests execution
+npm run test:createAccount                              #For create account tests execution
+npm run test:createTransaction                          #For create transaction tests execution
+npm run test:accountsList                               #For account list tests execution
+npm run test:transactionsList                           #For transactions list tests execution
+npm run test:single                                     #For individual test execution
 ```
 
 
 Start Jenkins Server
 
 ```bash
-npm run start-jenkins-server                 #For starting the Jenkins server
+npm run start-jenkins-server                            #For starting the Jenkins server
 ```
 
 
