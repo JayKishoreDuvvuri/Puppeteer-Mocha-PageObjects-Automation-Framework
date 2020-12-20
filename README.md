@@ -7,7 +7,7 @@ Design Page Objects and run Tests
 Clone the repository
 
 ```bash
-git clone https:https://github.com/JayKishoreDuvvuri/Puppeteer-Mocha-PageObjects-Automation-Framework
+git clone https://github.com/JayKishoreDuvvuri/Puppeteer-Mocha-PageObjects-Automation-Framework
 ```
 
 ## Application Under Test
