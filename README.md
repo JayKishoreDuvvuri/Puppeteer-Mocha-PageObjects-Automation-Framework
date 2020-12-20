@@ -84,9 +84,13 @@ Folder Structure
     └─── mochawesome-report                             # Test Report for the executed Test Cases
 
 
+```bash
 Mochawesome Test Report:
-        │
-        ├──mochawesome-report
+       │
+       ├──mochawesome-report
             ├── assets
             ├── mochawesome.html                        # Right click --> 'Reveal in Finder' for MAC (OR) 'Reveal in Explorer for Windows' to view report
             ├── mochawesome.json
+```
+
+        
