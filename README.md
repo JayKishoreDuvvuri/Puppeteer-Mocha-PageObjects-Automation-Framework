@@ -56,15 +56,12 @@ Folder Structure
     │   ├── createTransactionPageObjects.js             # Create Transaction page locators
     │   ├── transactionsListPageObjects.js              # Transactions List page locators
     │                                      
-    │
     ├── pages                                           # Generic functionality for tests
     │   |
     │   ├── accountsListPage.js                         # Account List page testing functionality
     │   ├── createAccountPage.js                        # Create Account page testing functionality
     │   ├── createTransactionPage.js                    # Create Transactoion page testing functionality
     │   ├── transactionsListPage.js                     # Transactions List page testing functionality
-    │
-    │
     │
     ├── tests                                           # Test suite with 59 Test Cases
     │    │                                     
@@ -83,9 +80,7 @@ Folder Structure
     │            
     │── .babelrc                                        # JavaScript Compiler
     │
-    │
     │── config.js                                       # Confiuguration JavSacript File with the baseUrl defined here
-    │
     │
     ├── helper.js                                       # Common utility file re-used across the Framework
     │   
