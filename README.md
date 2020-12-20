@@ -16,7 +16,7 @@ Install dependencies
 Install Node modules with command : npm i
 ```
 
-Run test                                     #Test Execution 
+Test Execution - Run test                                     
 
 ```bash
 npm run test:smoke                           #For smoke tests execution
