@@ -27,7 +27,7 @@ Test Execution - Run test
 
 ```bash
 npm run test:smoke                                      #For smoke tests execution
-npm run test:regression                                 #For regrerssion tests execution
+npm run test:regression                                 #For regression tests execution
 npm run test                                            #For all tests execution
 npm run test:createAccount                              #For create account tests execution
 npm run test:createTransaction                          #For create transaction tests execution
@@ -40,7 +40,7 @@ npm run test:single                                     #For individual test exe
 Start Jenkins Server
 
 ```bash
-npm run start-jenkins-server                            #For starting the Jenkins server
+npm run start-jenkins-server                            #For starting Jenkins server
 ```
 
 
@@ -60,7 +60,7 @@ Folder Structure
     │   |
     │   ├── accountsListPage.js                         # Account List page testing functionality
     │   ├── createAccountPage.js                        # Create Account page testing functionality
-    │   ├── createTransactionPage.js                    # Create Transactoion page testing functionality
+    │   ├── createTransactionPage.js                    # Create Transaction page testing functionality
     │   ├── transactionsListPage.js                     # Transactions List page testing functionality
     │
     ├── tests                                           # Test suite with 59 Test Cases
@@ -86,7 +86,7 @@ Folder Structure
     │   
     │── Screenshots                                     # Screenshots for failed tests
     │                          
-    ├── jenkins.war                                     # Jenkins war file used to start the Jenkins server
+    ├── jenkins.war                                     # Jenkins war file used to start Jenkins server
     │
     ├── package.json                                    # List of Packages
     │
