@@ -19,7 +19,7 @@ Install Node modules with command : npm i
 Run test
 
 ```bash
-Test Execution 
+## Test Execution 
 npm run test:smoke                           #For smoke tests execution
 npm run test:regression                      #For regrerssion tests execution
 npm run test                                 #For all tests execution
