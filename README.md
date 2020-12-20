@@ -4,19 +4,19 @@ Design Page Objects and run Tests
 
 ## Run application
 
-Clone the repository
+#Clone the repository
 
 ```bash
 git clone https:https://github.com/JayKishoreDuvvuri/Puppeteer-Mocha-PageObjects-Automation-Framework
 ```
 
-Install dependencies
+#Install dependencies
 
 ```bash
 Install Node modules with command : npm i
 ```
 
-Test Execution - Run test                                     
+#Test Execution - Run test                                     
 
 ```bash
 npm run test:smoke                           #For smoke tests execution
@@ -30,14 +30,14 @@ npm run test:single                          #For individual test execution
 ```
 
 
-Start Jenkins Server
+#Start Jenkins Server
 
 ```bash
 npm run start-jenkins-server                 #For starting the Jenkins server
 ```
 
 
-Folder Structure
+#Folder Structure
 
 ```bash
 ├── Root...
