@@ -31,7 +31,7 @@ describe("Create Account Page : Create Account for User with Currency Euro", fun
     expect(btnText).to.equal(createAccountBtnText);
   });
 
-  it("Fill in User details as currency Dollar and click submit button", async () => {
+  it("Fill in User details as currency Euro and click submit button", async () => {
     await createAccountPage.typeOwnerPatrick();
     await createAccountPage.typeBalance();
     await createAccountPage.selectEuro();
