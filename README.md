@@ -7,7 +7,7 @@ Design Page Objects and run Tests
 Clone the repository
 
 ```bash
-git clone https://github.com/JayKishoreDuvvuri/Puppeteer-Jest-Page-Object-Automation-Framework
+git clone https:https://github.com/JayKishoreDuvvuri/Puppeteer-Mocha-PageObjects-Automation-Framework
 ```
 
 Install dependencies
@@ -28,11 +28,19 @@ npm run test:createTransaction               #For create transaction tests execu
 npm run test:accountsList                    #For account list tests execution
 npm run test:transactionsList                #For transactions list tests execution
 npm run test:single                          #For individual test execution
+```
+
+
+Start Jenkins Server
+
+```bash
 npm run start-jenkins-server                 #For starting the Jenkins server
 ```
 
+
 Folder Structure
 
+```bash
 ├── Root...
     │
     ├── pageobjects                                     # Selectors for tests
@@ -84,7 +92,6 @@ Folder Structure
     └─── mochawesome-report                             # Test Report for the executed Test Cases
 
 
-```bash
 Mochawesome Test Report:
        │
        ├──mochawesome-report
