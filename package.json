@@ -1,0 +1,33 @@
+{
+  "name": "puppeteer-mocha-framework",
+  "version": "1.0.0",
+  "description": "Puppeteer-Mocha-PageObject-Design-Framework",
+  "main": "index.js",
+  "scripts": {
+    "test:smoke": "./node_modules/.bin/mocha --require @babel/register --timeout 30000 tests/smokeTests/**/**.js  --reporter mochawesome",
+    "test:regression": "./node_modules/.bin/mocha --require @babel/register --timeout 30000 tests/testsRegression/**/**.js --reporter mochawesome",
+    "test": "./node_modules/.bin/mocha --require @babel/register --timeout 30000 tests/**/**.js --reporter mochawesome",
+    "test:createAccount": "./node_modules/.bin/mocha --require @babel/register --timeout 30000 tests/createAccountTests --reporter mochawesome",
+    "test:createTransaction": "./node_modules/.bin/mocha --require @babel/register --timeout 30000 tests/createTransactionTests --reporter mochawesome",
+    "test:accountsList": "./node_modules/.bin/mocha --require @babel/register --timeout 30000 tests/accountsListTests --reporter mochawesome",
+    "test:transactionsList": "./node_modules/.bin/mocha --require @babel/register --timeout 30000 tests/transactionsListTests --reporter mochawesome",
+    "test:single": "./node_modules/.bin/mocha --require @babel/register --timeout 30000 tests/createTransactionTests/sourceDestinationNotSame.test.js",
+    "start-jenkins-server": "java -jar jenkins.war --enable-future-java --httpPort=9090"
+  },
+  "author": "Jay Kishore Duvvuri",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "mochawesome": "^6.2.1",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}

@@ -1,0 +1,22 @@
+module.exports = {
+  createTransactionBtn: "#createtransbtn:not([disabled])",
+  createTransactionBtnText: "Create Transaction",
+  amount: "#amount",
+  amountBlank: "",
+  amountValue: "100",
+  ownerSource: "#source",
+  ownerSourceName: "Stephan",
+  ownerDestination: "#destination",
+  ownerDestinationName: "Patrick",
+  submitBtn: "#transsubmit",
+  submitBtnText: "Submit",
+  successMessage:
+    "div.notification.notification-success.notification-enter-done",
+  successMessageText: "Transaction has been successfully created.",
+  clearBtn: "#transclear",
+  clearBtnText: "Clear",
+  currency: "#currency",
+  errorMessage: "div.notification-message",
+  errorMessageText: "Please fill in details.",
+  sourceDestinationMessage: "Source and destination cannot be same.",
+};

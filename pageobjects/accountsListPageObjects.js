@@ -1,0 +1,15 @@
+module.exports = {
+  accountListBtn: "#acclistbtn:not([disabled])",
+  accountDetailsTab: '[data-test-id="Account-Details"]',
+  idLabel: "table > thead > tr > th:nth-child(1)",
+  nameLabel: "table > thead > tr > th:nth-child(2)",
+  nameInputBox: "#text-filter-column-owner:not([disabled])",
+  userName:"Stephan",
+  balanceLabel: "table > thead > tr > th:nth-child(3)",
+  currencyLabel: "table > thead > tr > th:nth-child(4)",
+  createdOnLabel: "table > thead > tr > th:nth-child(5)",
+  tableBody: "div > table > tbody",
+  size: "#Size::not([disabled])",
+  prevBtn: "#pagPrev",
+  nextBtn: "#pagNext",
+};
