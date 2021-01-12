@@ -47,11 +47,11 @@ export default class Launcher {
   }
 
   async getTitle() {
-    return await page.title();
+    return await this.page.title();
   }
 
   async getUrl() {
-    return await page.url();
+    return await this.page.url();
   }
 
   async waitAndClick(selector) {
